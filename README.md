@@ -39,7 +39,7 @@ sns.barplot(x=top_codes.index,
             legend=False)         # Added to fix warning
 plt.title('Top 10 Most Frequent Waste Codes', fontsize=14)
 plt.xlabel('Waste Code', fontsize=12)
-plt.ylabel('Count', fontsize=12)
+plt.ylabel('Count', fontsize=12) 
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
